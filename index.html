@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE - SALSYA</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth; /* Efek scroll lembut saat klik menu */
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #d375c3;
+        }
+
+        .title {
+            flex-grow: 1;
+        }
+
+        nav a {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 30px;
+            display: inline-block;
+            color: black;
+            font-size: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #d375c3;
+            border-radius: 5px;
+        }
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            margin: 0;
+            padding-left: 10px;
+        }
+
+        li {
+            margin-left: 15px;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: black;
+        }
+
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            background-color: #d375c3;
+            max-width: 2000px;
+            margin: auto;
+        }
+
+        .right-content {
+            text-align: center;
+        }
+
+        #hero {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            color: white;
+            max-width: 2000px;
+            margin: auto;
+        }
+
+        .hero-image {
+            width: 400px;
+            height: auto;
+            margin-bottom: 50px;
+        }
+
+        .hero-content {
+            padding-bottom: 150px;
+            flex: 1;
+        }
+
+        .hero-image2 {
+            width: 400px;
+            height: auto;
+            margin-bottom: 50px;
+        }
+
+        h3 {
+            color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding-top: 50px;
+            padding-left: 30px;
+            font-size: 30px;
+        }
+
+        #wrapper {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            color: white;
+            max-width: 2000px;
+            margin: auto;
+        }
+
+        .wrapper-content {
+            flex: 1;
+            padding-right: 20px;
+        }
+
+        .wrapper-image {
+            width: 400px;
+            height: auto;
+            margin-bottom: 80px;
+            margin-top: 5px;
+        }
+
+        .wrapper-image2 {
+            width: 400px;
+            height: auto;
+            margin-bottom: 80px;
+            margin-top: 5px;
+        }
+
+        h5 {
+            color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding-top: 5px;
+            padding-bottom: 100px;
+            padding-left: 40px;
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        #about {
+            background-color: #f3e5f5;
+            padding: 40px;
+            text-align: center;
+            max-width: 1000px;
+            margin: 30px auto;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #d375c3;
+            padding: 30px;
+            color: black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav__logo">
+            <img alt="" height="50" src="upb.png">
+        </div>
+        <div class="title">
+            <a href="#">NOVI SALSYA ELINA</a>
+        </div>
+        <ul class="ul">
+            <li><a href="#home">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="#" class="inactive">Shop</a></li>
+            <li><a href="#" class="inactive">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="header" id="home">
+        <div class="right-content">
+            <img src="salsya.png" alt="Foto" class="profile-image"> 
+            <h1 class="name">NOVI SALSYA ELINA</h1>
+            <h2 class="name2">312310326</h2>
+        </div>
+    </header>
+
+    <section id="hero">
+        <img src="nabimuhammad.jpeg" alt="Salsya" class="hero-image">
+        <div class="hero-content">
+            <h3>
+                <p>Sejarah Islam adalah kisah perjalanan agama Islam dari awal kemunculannya di Jazirah Arab hingga menjadi salah satu agama terbesar di dunia. Islam dimulai pada awal abad ke-7 Masehi, ketika Nabi Muhammad SAW menerima wahyu dari Allah melalui Malaikat Jibril di Mekkah. Ajaran Islam membawa perubahan besar dalam tatanan sosial, politik, dan spiritual masyarakat Arab.</p>
+                <br>Setelah mengalami berbagai tantangan di Mekkah, Nabi Muhammad dan para pengikutnya hijrah ke Madinah pada tahun 622 M. Di sana, beliau mendirikan masyarakat Islam pertama yang berdasarkan wahyu Ilahi dan nilai-nilai keadilan, persaudaraan, dan ketakwaan. Masa kenabian diakhiri dengan wafatnya Nabi Muhammad pada tahun 632 M.</br>
+            </h3>
+        </div> 
+        <img src="Allah.jpeg" alt="delamifc" class="hero-image2">
+    </section>
+
+    <section id="wrapper">
+        <img src="sejarah.jpg" alt="salsya" class="wrapper-image2">
+        <div class="wrapper-content">
+            <h5> 
+                <p>Islam masuk ke Indonesia secara bertahap dan damai, dimulai sekitar abad ke-7 hingga 13 M, melalui jalur perdagangan. Para pedagang Muslim dari Arab, Persia, India, dan kemudian dari Gujarat (India) berlayar ke kepulauan Nusantara untuk berdagang rempah-rempah dan berinteraksi dengan penduduk lokal. Melalui hubungan dagang inilah, ajaran Islam mulai diperkenalkan.</p>
+                <br>Berbeda dengan penyebaran Islam di kawasan lain yang sering disertai penaklukan militer, di Indonesia Islam berkembang secara damai, melalui perdagangan, perkawinan, pendidikan, dan kesenian. Para ulama dan wali memainkan peran penting dalam menyebarkan Islam dengan pendekatan budaya yang akomodatif terhadap tradisi lokal.</br>
+            </h5>
+        </div>   
+        <img src="foto.jpeg" alt="delamifc" class="wrapper-image">
+    </section>
+
+    <footer>
+        <p>@312310326 Novi Salsya Elina TI23CA1</p>
+    </footer>
+</body>
+</html>
